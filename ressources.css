@@ -1,0 +1,159 @@
+
+html, body, #page, #contenu{
+	margin: 0 auto;
+	padding: 0 auto;
+	height: 100%;
+	width: 100%;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+#image_fond {
+	background-image: url('lfpt.jpg');
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(30%);
+	width: 100%;
+	height: 130%;
+	position: absolute;
+	margin-top: -50px;
+	z-index: -1;
+}
+
+#container{
+	margin-top: 5%;
+	flex-grow:1;
+}
+
+#hight {
+	height: 5%;
+	background-color: red;
+	
+}
+
+#middle {
+	height: 25%;
+	width: 100%;
+	margin-top: 5%;
+	
+	text-align: center;
+	color: white;
+	font-size: 4vw;
+}
+
+#down {
+	height: 25%;
+	width: 100%;	
+	margin-top: 10%;
+	
+	text-align: center;
+	color: white;
+	font-size: 2vw;
+}
+
+#engagment {
+   	margin-top: 5%;
+    width: 100%;
+    height: 8%;
+
+}
+
+#button_engagment {
+	margin:auto;
+  	display:block;
+}
+
+#container{
+	margin: 0 auto;
+	padding: 0 auto;
+	height: 110%;
+	width: 100%;
+	position: relative;
+	margin-top: 2%;
+}
+
+#box_bapteme{
+	
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(70%);
+	width: 100%;
+	height: 50%;
+	float: left;
+
+}
+
+#box_vi{
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(90%);
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+#bac{
+	background-color: rgba(99, 99, 99, 0.5);
+	color: white;
+}
+#titre{
+	font-size: 24px;
+}
+#para{
+	font-size: 130%;
+}
+
+#carte{
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(100%);
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+#carte_parent{
+	margin-left: 5%;
+	background-color: rgba(99, 99, 99, 0.5);
+	color: white;
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(80%);
+	width: 70%;
+	height: 113%;
+}
+#texte_parent{
+	background-color: rgba(99, 99, 99, 0.5);
+	color: white;
+	margin-left: -20%;
+	position: absolute;
+	width: 115%;
+}
+#titre_pilote{
+	font-size: 1.5vw;
+}
+#para_pilote{
+	font-size: 1.1vw;
+}
+#pontoise{
+	background-color: rgba(99, 99, 99, 0.5);
+	width: 100%;
+	height: 300px;
+	margin-top: 5%;
+}
+#pontoise_landing{
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: brightness(80%);
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	border-radius: 7px;
+}
+#texte_pontoise{
+	margin-left: 45%;
+	margin-right: 10%;
+	color: white;
+	font-size: 18px;
+	padding-top: 3%;
+}

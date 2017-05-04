@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPAC</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.css">
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.js'></script>
+	<link rel="stylesheet" type="text/css" href="ressources.css">
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+	<link rel="icon" 
+      type="image/png" 
+      href="logo-small.gif">
+</head>
+<body>
+<div id="page">
+	<div id="image_fond"></div>
+	<!-***********************HEADER*********************->
+	<div id="header">
+		<div class="ui inverted large menu" id='header'>
+		  <div class="header item" href=''>
+		    CPAC
+		  </div>
+
+		  <a class="item">
+		    Découvrez l'aviation / Baptême
+		  </a>
+		   <a class="item">
+		    Je souhaite devenir pilote
+		  </a>
+		  <a class="item">
+		   	Le club
+		  </a>
+		  <a class="item">
+		    Contacts
+		  </a>
+		  <a class="item">
+		    liens
+		  </a>
+
+		  <div class="right menu">
+		  <div class="item">
+		    <div class="ui primary button">S'inscrire</div>
+		  </div>
+
+		  <div class="item">
+		    <div class="ui button">Se connecter</div>
+		  </div>
+		  </div>
+		</div>
+	</div>
+	<!-***********************CONTAINER*********************->
+	<div id="container">
+			<div class="ui center aligned grid">
+
+				  	<div class="two column row">
+
+					    <div class="column">
+					      <div class="ui segment" id="carte_parent">
+						      	<img src="carte_pon.jpg" id="carte">   	
+					      </div>
+					    </div>
+
+					    <div class="column">
+					      <div class="ui segment" id="texte_parent">
+						      	
+						      	<p id="titre_pilote">L'apprenttissage</p>
+						      	<p id="para_pilote">La formation de pilote d'avion est éxigente mais pas inateignable, vous aurez de nombreuses heures de travail au sol pour apprendre la theorie aeronautique et comprendre le milieu dans lequel vous allez évoluer (de 100 à 200 heures de travail). Ensuite, la règlementation impose 45 heures de vol. Comme pour le permis de conduire ce quota minimal d'heure suffit rarement à complêter entièrement la formation et vous aurez sans doute besoin de 50 à 70 heures de vols en fonction de votre niveau, de vos disponnibilités et de votre motivation.<br>
+						      	Une fois votre licence de pilote obtenu vous continuerez votre formation si vous le souhaitez vers des qualifications complémentaires comme le vol de nuit ou la qualification de la langue anglaise.
+						      	Vous pourrez également effectuer ulterieurement différentes formations comme la volitge, le vol sur bimoteur, sur avion à train rentrant, etc... </p>
+						  <table class="ui definition table" id="tableau_devenir">
+						  <tbody>
+						    <tr>
+						      <td class="two wide column">Brevet de base</td>
+						      <td>30 heures de vol, coût estimé = 2 500€</td>
+						    </tr>
+						    <tr>
+						      <td>Private Pilote Licence</td>
+						      <td>60 heures de vol coût estimé = 8 000€</td>
+						    </tr>
+						    <tr>
+						      <td>Vol de nuit</td>
+						      <td>Une fois votre licence de pilote obtenu vous pourrez passer des compétences complémentaires comme le vol de nuit à vu</td>
+						    </tr>
+						    <tr>
+						      <td>Compétence Anglais</td>
+						      <td>Pour voyager à l'étranger vous aurez besoin de la compétence en anglais de niveau 4 (FCL.055)</td>
+						    </tr>
+						  </tbody>
+						</table>    	
+					      </div>
+					    </div>
+				  	</div>
+			</div>
+			<div class="ui grid">
+  				<div class="sixteen wide column"></div>
+					<div id="pontoise">
+						<img src="maxresdefault.jpg" id="pontoise_landing">
+						<div id="texte_pontoise">
+							<p>La plateforme de Pontoise est vraiment idéal pour réaliser sa formation. Elle offre un environement avec un espace controlé permettant de se former aux procédures les plus éxigeantes. la piste longue et large permet de réaliser des exercices qui ne sont pas facilement réalisable sur d'autres types de terrains.<br>
+							Le terrain de Pontoise est équipé d'un ILS (outil de navigation aux instruments) permettant d'atterrir par tout temps. Il est également équipé d'un VOR qui permet de s'entrainer sur beaucoup de procédure sparticulières. Une fois que vous aurez votre PPL (et si vous souhaitez aller plus loin dans votre formation) vous aurez la possibilité de suivre des cours sur des avions en IFR (instrument flight rules). </p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="ui inverted segment" id="">
+							  <div class="ui inverted form">
+							    <div class="two fields">
+							      <div class="field">
+							        <label>Prenom/nom</label>
+							        <input placeholder="Jean Martin" type="text">
+							      </div>
+							      <div class="field">
+							        <label>Numero de téléphone</label>
+							        <input placeholder="téléphone" type="text">
+							      </div>
+							      <div class="field">
+							        <label>Email</label>
+							        <input placeholder="Email" type="text">
+							      </div>
+							    </div>
+							    <div class="inline field">
+							      <div class="ui checkbox">
+							        <input type="checkbox" tabindex="0" class="hidden">
+							        <label>Je souhaite recevoir un email d'information sur les conditions de la formation de pilote</label>
+							      </div>
+							    </div>
+							    <div class="ui submit button">Envoyer</div>
+							  </div>
+	</div>
+	<!-***********************FOOTER*********************->
+
+</div>
+</body>
+</html>
